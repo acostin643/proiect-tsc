@@ -12,11 +12,11 @@ Mai jos este tabelul cu componentele utilizate, conform specificațiilor proiect
 
 | Componentă / Valoare | Cant. | Capsulă | Producător / PN | Sursă (JLC Parts) | Datasheet |
 | :--- | :---: | :--- | :--- | :--- | :--- |
-| **nRF52840-QIAA** | 1 | aQFN-73 | Nordic | [C115598](https://jlcpcb.com/partdetail/NordicSemicon_nRF52840QIAA/C115598) | [Link](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf) [cite: 2] |
-| **LSM6DS3TR-C** | 1 | LGA-14L | ST | [C134015](https://jlcpcb.com/partdetail/STMicroelectronics_LSM6DS3TRC/C134015) | [Link](https://www.st.com/resource/en/datasheet/lsm6ds3.pdf) [cite: 2] |
-| **Waveshare 1.54inch E-Paper Module** | 1 | FPC-24P | Waveshare | [C2904555](https://jlcpcb.com/partdetail/Waveshare_154inchE_PaperModule/C2904555) | [Link](https://www.waveshare.com/wiki/1.54inch_e-Paper_Module) [cite: 2] |
-| **Fit0774** | 1 | SMD | DFRobot | [C3016423](https://jlcpcb.com/partdetail/Fit0774/C3016423) | [Link](https://wiki.dfrobot.com/Micro_Vibration_Motor_3_7V_SKU_FIT0774) [cite: 2] |
-| **KH-TYPE-C-16P** | 1 | SMD | Kinghelm | [C710729](https://jlcpcb.com/partdetail/Kinghelm_KHTYPEC16P/C710729) | [Link](https://datasheet.lcsc.com/lcsc/2108132230_Kinghelm-KH-TYPE-C-16P_C710729.pdf) [cite: 2] |
+| **nRF52840-QIAA** | 1 | aQFN-73 | Nordic | [C115598](https://jlcpcb.com/partdetail/NordicSemicon_nRF52840QIAA/C115598) | [Link](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf)  |
+| **LSM6DS3TR-C** | 1 | LGA-14L | ST | [C134015](https://jlcpcb.com/partdetail/STMicroelectronics_LSM6DS3TRC/C134015) | [Link](https://www.st.com/resource/en/datasheet/lsm6ds3.pdf)  |
+| **Waveshare 1.54inch E-Paper Module** | 1 | FPC-24P | Waveshare | [C2904555](https://jlcpcb.com/partdetail/Waveshare_154inchE_PaperModule/C2904555) | [Link](https://www.waveshare.com/wiki/1.54inch_e-Paper_Module)  |
+| **Fit0774** | 1 | SMD | DFRobot | [C3016423](https://jlcpcb.com/partdetail/Fit0774/C3016423) | [Link](https://wiki.dfrobot.com/Micro_Vibration_Motor_3_7V_SKU_FIT0774)  |
+| **KH-TYPE-C-16P** | 1 | SMD | Kinghelm | [C710729](https://jlcpcb.com/partdetail/Kinghelm_KHTYPEC16P/C710729) | [Link](https://datasheet.lcsc.com/lcsc/2108132230_Kinghelm-KH-TYPE-C-16P_C710729.pdf)  |
 
 ## 3. Descriere Hardware și Funcționalitate
 InkTime este un smartwatch proiectat pentru a fi ieftin și open-source, optimizat pentru consum minim de energie[cite: 1].
