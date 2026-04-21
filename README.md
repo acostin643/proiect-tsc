@@ -19,7 +19,7 @@ Mai jos este tabelul cu componentele utilizate, conform specificațiilor proiect
 | **KH-TYPE-C-16P** | 1 | SMD | Kinghelm | [C710729](https://jlcpcb.com/partdetail/Kinghelm_KHTYPEC16P/C710729) | [Link](https://datasheet.lcsc.com/lcsc/2108132230_Kinghelm-KH-TYPE-C-16P_C710729.pdf)  |
 
 ## 3. Descriere Hardware și Funcționalitate
-InkTime este un smartwatch proiectat pentru a fi ieftin și open-source, optimizat pentru consum minim de energie[cite: 1].
+InkTime este un smartwatch proiectat pentru a fi ieftin și open-source, optimizat pentru consum minim de energie.
 
 * **Microcontroler:** SoC nRF52840 gestionează procesarea și comunicarea radio (Bluetooth 5.0).
 * **Senzori:** IMU LSM6DS3TR-C este utilizat pentru detecția mișcării, comunicând prin interfața **I2C**.
