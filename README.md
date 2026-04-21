@@ -1,8 +1,8 @@
 
-# Proiect - Ink Time [cite: 1, 2]
+# Proiect - Ink Time
 **Autor:** Baltag Constantin
 
-## 1. Diagramă Bloc [cite: 1]
+## 1. Diagramă Bloc
 Diagrama reprezintă arhitectura sistemului InkTime, având în centru microcontrolerul nRF52840.Acesta este conectat prin magistrale dedicate (I2C, SPI, PWM) la senzorii de mișcare, ecranul E-Paper și motorul de vibrații, asigurând o gestionare eficientă a consumului și a interacțiunii.
 
 
@@ -18,14 +18,14 @@ Mai jos este tabelul cu componentele utilizate, conform specificațiilor proiect
 | **Fit0774** | 1 | SMD | DFRobot | [C3016423](https://jlcpcb.com/partdetail/Fit0774/C3016423) | [cite_start][Link](https://wiki.dfrobot.com/Micro_Vibration_Motor_3_7V_SKU_FIT0774) [cite: 2] |
 | **KH-TYPE-C-16P** | 1 | SMD | Kinghelm | [C710729](https://jlcpcb.com/partdetail/Kinghelm_KHTYPEC16P/C710729) | [cite_start][Link](https://datasheet.lcsc.com/lcsc/2108132230_Kinghelm-KH-TYPE-C-16P_C710729.pdf) [cite: 2] |
 
-## [cite_start]3. Descriere Hardware și Funcționalitate [cite: 1, 2]
+## 3. Descriere Hardware și Funcționalitate
 [cite_start]InkTime este un smartwatch proiectat pentru a fi ieftin și open-source, optimizat pentru consum minim de energie[cite: 1].
 
-* [cite_start]**Microcontroler:** SoC nRF52840 gestionează procesarea și comunicarea radio (Bluetooth 5.0)[cite: 2].
-* [cite_start]**Senzori:** IMU LSM6DS3TR-C este utilizat pentru detecția mișcării, comunicând prin interfața **I2C**[cite: 2].
-* [cite_start]**Display:** Ecranul E-Paper oferă o citire excelentă și consum minim, fiind conectat prin **SPI**[cite: 2].
-* [cite_start]**Feedback:** Motorul de vibrații (shaker) oferă notificări haptice controlate prin semnal **PWM**[cite: 2].
-* [cite_start]**Alimentare:** Include un circuit de încărcare pentru bateria LiPo [cite: 1][cite_start], mufa USB-C fiind utilizată pentru alimentare și debug[cite: 2].
+* **Microcontroler:** SoC nRF52840 gestionează procesarea și comunicarea radio (Bluetooth 5.0).
+* **Senzori:** IMU LSM6DS3TR-C este utilizat pentru detecția mișcării, comunicând prin interfața **I2C**.
+* **Display:** Ecranul E-Paper oferă o citire excelentă și consum minim, fiind conectat prin **SPI**.
+* **Feedback:** Motorul de vibrații (shaker) oferă notificări haptice controlate prin semnal **PWM**.
+* **Alimentare:** Include un circuit de încărcare pentru bateria LiPo, mufa USB-C fiind utilizată pentru alimentare și debug.
 
 ## 4. Configurație Pini (nRF52840)
 Alocarea pinilor a fost realizată pentru a respecta cerințele de design și rutare:
